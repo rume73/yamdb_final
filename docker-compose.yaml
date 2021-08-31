@@ -16,9 +16,6 @@ services:
   web:
     image: rume73/yamdb_final:latest
     restart: always
-    volumes:
-      - static_value:/code/static/
-      - media_value:/code/media/
     depends_on:
       - db
     env_file:
