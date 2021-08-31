@@ -1,0 +1,8 @@
+venv
+.*
+*.py[cod]
+*.sqlite3
+Dockerfile
+docker-compose.yaml
+yamdb_workflow.yaml
+README.
