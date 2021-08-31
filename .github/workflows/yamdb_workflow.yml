@@ -12,9 +12,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
-        script: |
-          touch .env
-          echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
 
     - name: Install dependencies
       run: | 
