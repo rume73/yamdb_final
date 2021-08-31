@@ -20,6 +20,10 @@ jobs:
           pip install -r requirements.txt
 
     - name: Test with flake8 and pytest
+      with:
+        script: |
+          touch .env
+          echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
       run: |
         python -m flake8
         python manage.py pytest
