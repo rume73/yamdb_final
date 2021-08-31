@@ -12,6 +12,7 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer, TitleSerializer)
 from .viewsets import ListCreateDestroyViewSet
 
+
 User = get_user_model()
 
 
