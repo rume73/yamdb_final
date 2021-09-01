@@ -15,7 +15,6 @@ services:
 
   web:
     image: rume73/yamdb_final:latest
-    build: .
     restart: always
     depends_on:
       - db
