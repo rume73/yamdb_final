@@ -1,4 +1,4 @@
-# yamdb_final ![YaMDb Status](https://github.com/rume73/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
+# yamdb_final [![YaMDb Status](https://github.com/rume73/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)]
 
 ## REST API for YaMDb service - site of reviews about films, books and music.
 
@@ -25,7 +25,7 @@
 Запуск проекта (на примере Linux)
 
 - Создайте на своем компютере папку проекта YamDb `mkdir yamdb` и перейдите в нее `cd yamdb`
-- Склонируйте этот репозиторий в текущую папку git clone `https://github.com/rume73/api_yamdb/` .
+- Склонируйте этот репозиторий в текущую папку git clone `https://github.com/rume73/yamdb_final/` .
 - Создайте файл .env командой `touch .env` и добавьте в него переменные окружения для работы с базой данных:
 
 ```
@@ -129,7 +129,7 @@ Password (again):
 ```
 
 ## Техническое описание проекта YaMDb
-Вам доступен репозиторий api_yamdb. К проекту по адресу /redoc подключена документация API YaMDb. В ней описаны шаблоны запросов к API и структура ожидаемых ответов. Для каждого запроса указаны уровни прав доступа: пользовательские роли, которым разрешён запрос.
+Вам доступен репозиторий yamdb_final. К проекту по адресу /redoc подключена документация API YaMDb. В ней описаны шаблоны запросов к API и структура ожидаемых ответов. Для каждого запроса указаны уровни прав доступа: пользовательские роли, которым разрешён запрос.
 
 *запросы к API начинаются с `/api/v1/`*
 
@@ -185,3 +185,8 @@ Password (again):
 * **Vladimir Loginov** - [rume73](https://github.com/rume73)
 * **Olga Strizh** - [arswift ](https://github.com/arswift)
 * **Ruslan Gamidov** - [Luchesse](https://github.com/Luchesse)
+
+## Ссылки
+
+Проект доступен по следующей ссылке <http://62.84.114.196/api/v1/>
+Подробная документация по API размещена по адресу <http://62.84.114.196/redoc/>
