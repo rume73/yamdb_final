@@ -1,4 +1,4 @@
-# yamdb_final [![YaMDb Status](https://github.com/rume73/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)]
+# yamdb_final ![YaMDb Status](https://github.com/rume73/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 ## REST API for YaMDb service - site of reviews about films, books and music.
 
